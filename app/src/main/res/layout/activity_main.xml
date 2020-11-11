@@ -3,15 +3,46 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:gravity="center">
+<EditText
+    android:layout_width="match_parent"
+    android:id="@+id/urlEditText"
+    android:hint="https://"
+    android:singleLine="true"
+    android:textSize="20sp"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:textStyle="bold"
+    android:textColor="#000"
+    android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/download"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:padding="10dp"
-        android:text="Download "
-        android:textColor="#000"
-        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="Download "
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/clipboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="Paste Link"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
 </LinearLayout>

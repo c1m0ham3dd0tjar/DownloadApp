@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Download App</string>
+
+
+
+    <string name="start_download">بدأ التحميل</string>
+    <string name="download_intitle"> تحميل </string>
+    <string name="not_downloaded">لم يتم التحميل</string>
+    <string name="accept_permission">تم قبول امكانية التحميل</string>
+    <string name="deny_permission">تم رفض امكانية التحميل</string>
 </resources>
